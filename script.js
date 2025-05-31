@@ -6,7 +6,8 @@ pass.addEventListener('input', () => {
     if(pass.ariaValueMax.length >0) {
         msg.style.display = "block";
     }
-    else{
+    else
+{
         msg.style.display = "none";
     }
     if(pass.ariaValueMax.length < 4){
