@@ -5,6 +5,7 @@ var str = document.getElementById("strength");
 pass.addEventListener('input', () => {
     if(pass.ariaValueMax.length >0) {
         msg.style.display = "block";
+
     }
     else
 {
